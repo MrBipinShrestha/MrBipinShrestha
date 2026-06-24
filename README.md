@@ -34,6 +34,18 @@
 
 ---
 
+## 🔐 Cybersecurity Projects
+
+| Project | Description | Tools |
+|--------|-------------|-------|
+| [Phishing Attack Lab Kit](https://github.com/MrBipinShrestha/phishing-attack-lab-kit) | SOC-style phishing analysis — email forensics, OSINT, detection workflows | Kali Linux, SET, Python |
+| [Crypto Scam Analysis Framework](https://github.com/MrBipinShrestha/crypto-scam-analysis-framework) | Fraud pattern analysis, cognitive bias mapping, recovery playbooks | Python, MITRE-style |
+| [Social Engineering Awareness Lab](https://github.com/MrBipinShrestha/social-engineering-awareness-lab) | Credential harvester phishing demo + prevention controls | Kali Linux, SET |
+| [ClamAV Malware Detection Lab](https://github.com/MrBipinShrestha/clamav-malware-detection-lab) | Malware detection and removal using ClamAV on Linux | Kali Linux, ClamAV |
+| [Wireshark HTTP vs HTTPS Analysis](https://github.com/MrBipinShrestha/wireshark-http-vs-https-analysis) | Packet analysis — HTTP plaintext vs TLS encrypted traffic | Wireshark |
+
+---
+
 ## 🧰 Tech Stack
 
 ### 🔐 Security Tools
