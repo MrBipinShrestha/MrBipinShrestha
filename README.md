@@ -1,107 +1,181 @@
-# Hi, I'm Bipin Shrestha 👋
+# 👋 Bipin Shrestha
 
-<h3 align="center">
-SOC Analyst | Cybersecurity Analyst | Machine Learning for Security
-</h3>
+**SOC Analyst | Detection Engineering | Security Analytics**
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=00BFFF&center=true&vCenter=true&width=700&lines=SOC+Analyst+%7C+Cybersecurity;Machine+Learning+for+Threat+Detection;Blue+Team+Security+Enthusiast;Security+Analytics+%26+Threat+Intelligence" />
-</p>
+📍 Sydney, Australia  
+🎓 Master of Information Technology (Cybersecurity & Data Analytics)
 
 ---
 
-## 🛡️ About Me
+## 🧭 Overview
 
-* 🔐 Cybersecurity professional focused on SOC operations and Blue Team security
-* 🤖 Building machine learning-powered intrusion detection systems
-* 📊 Experience in anomaly detection, threat classification, and security analytics
-* 🌏 Based in Sydney, Australia
-* 🎓 Master of Information Technology (Cybersecurity & Data Analytics)
-* 🚀 Passionate about combining cybersecurity with data science
+Cybersecurity professional focused on **Security Operations (SOC)**, **detection engineering**, and **threat analytics**.
 
----
+I build and analyze:
 
-# 🚀 Featured Project
-
-## 🔐 AI-Powered SOC Intrusion Detection System
-
-End-to-end SOC-style machine learning pipeline using the UNSW-NB15 dataset for attack detection and threat classification.
-
-| Metric        | Result           |
-| ------------- | ---------------- |
-| Attack Recall | 98%              |
-| ROC AUC       | 0.9794           |
-| Accuracy      | 88.30%           |
-| Dataset       | 175,000+ Records |
-
-### Technologies
-
-`Python` `Scikit-learn` `Random Forest`
-`Isolation Forest` `SMOTE`
-`Pandas` `NumPy`
-`Matplotlib` `Jupyter Notebook`
+* SIEM-based detection systems
+* Attack simulations in controlled lab environments
+* Security monitoring pipelines using MITRE ATT&CK
+* Machine learning models for intrusion detection
 
 ---
 
-# 🔐 Cybersecurity Projects
+## 🛡️ Core Expertise
 
-| Project                          | Description                                     | Tools                |
-| -------------------------------- | ----------------------------------------------- | -------------------- |
-| Phishing Attack Lab Kit          | Email forensics, OSINT, detection workflows     | Kali Linux, Python   |
-| Crypto Scam Analysis Framework   | Scam analysis and fraud intelligence            | Python               |
-| Social Engineering Awareness Lab | Credential harvesting simulation and prevention | Kali Linux, SET      |
-| ClamAV Malware Detection Lab     | Malware detection and removal on Linux          | ClamAV               |
-| Wireshark HTTP vs HTTPS Analysis | Packet analysis and TLS inspection              | Wireshark            |
-| Network Anomaly Detection        | ML-based intrusion detection system             | Python, Scikit-learn |
+**SOC & Security Operations**
 
----
+* SIEM monitoring (Wazuh)
+* Alert triage & incident investigation
+* Log analysis & threat detection
+* MITRE ATT&CK mapping
 
-# 🧰 Technical Skills
+**Detection Engineering**
 
-### 🔐 Security
+* Rule-based detection logic
+* Attack simulation validation
+* Detection coverage analysis
+* Security gap identification
 
-* SIEM
-* IDS/IPS
-* Network Security
-* Packet Analysis
-* Threat Detection
-* Security Monitoring
+**Data & ML Security**
 
-### 🤖 Machine Learning
-
-* Python
-* Scikit-learn
-* Pandas
-* NumPy
-* Jupyter Notebook
-* Data Visualization
-
-### 🛠️ Tools
-
-* Git
-* GitHub
-* VS Code
-* Kali Linux
-* Wireshark
-* Linux
+* Intrusion detection models
+* Feature engineering for network traffic
+* Classification models (RF, XGBoost, Neural Networks)
+* Security data analytics
 
 ---
 
-# 📊 GitHub Stats
+## 🚨 Featured Projects
 
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=MrBipinShrestha&show_icons=true&theme=tokyonight" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MrBipinShrestha&layout=compact&theme=tokyonight" />
-</p>
+### 🛡️ SOC Home Lab – Wazuh SIEM (Blue Team Operations)
+
+Enterprise-style SOC environment simulating real-world security monitoring and incident response.
+
+**Key Work**
+
+* Deployed Wazuh SIEM with Windows 10 + Kali Linux agents
+* Executed **controlled attack simulations** across 5 scenarios:
+  * SSH brute force
+  * Privilege escalation
+  * Persistence via cron jobs
+  * Malware execution simulation
+  * Data exfiltration attempts
+* Built **5 structured incident response reports**
+* Mapped all attacks to **MITRE ATT&CK framework**
+* Evaluated detection coverage and identified security gaps
+
+**Security Outcomes**
+
+* 3/5 attack types detected successfully in SIEM
+* 2/5 detection gaps documented with improvement recommendations
+* End-to-end SOC workflow: detection → analysis → response → reporting
+
+**Tech Stack:** Wazuh, Linux, Windows, MITRE ATT&CK, Log Analysis, SIEM
+
+📂 **[View Full Repository](https://github.com/MrBipinShrestha/soc-home-lab-wazuh)**
 
 ---
 
-# 📫 Connect With Me
+### 📊 Network Intrusion Detection – UNSW-NB15 (ML Security Analytics)
 
-* LinkedIn: linkedin.com/in/shresthabipin
-* GitHub: github.com/MrBipinShrestha
-* Location: Sydney, Australia
+End-to-end machine learning pipeline for network anomaly detection.
+
+**Key Work**
+
+* Data preprocessing and feature engineering on UNSW-NB15 dataset
+* Built and evaluated multiple ML models:
+  * Random Forest
+  * XGBoost
+  * Neural Networks
+* Performed model comparison and performance tuning
+* Developed full reproducible Jupyter pipeline
+* Documented methodology in academic research format
+
+**Outputs**
+
+* Research paper (IEEE-style format)
+* Presentation slides
+* Reproducible ML pipeline notebook
+
+**Tech Stack:** Python, scikit-learn, TensorFlow, Pandas, Jupyter
+
+📂 **[View Full Repository](https://github.com/MrBipinShrestha/network-anomaly-detection-unsw-nb15)**
 
 ---
 
-⭐ Always learning, building, and improving cybersecurity solutions through hands-on projects and research.
+## 🔬 Additional Security Labs
+
+| Project | Focus Area | Skills |
+|---------|-----------|--------|
+| Malware Detection Lab | Endpoint Security | ClamAV, file analysis, hashing |
+| Phishing Attack Lab Kit | Email Security | OSINT, phishing analysis, email headers |
+| Social Engineering Lab | Human Threats | Awareness training, red team concepts |
+
+---
+
+## 📊 SOC Engineering Highlights
+
+* Built **end-to-end SOC workflow environment**
+* Simulated attacker behaviors in controlled lab settings
+* Designed detection logic mapped to MITRE ATT&CK
+* Analyzed SIEM alerts and detection blind spots
+* Documented incident lifecycle (detection → containment → remediation)
+
+---
+
+## 🧠 Technical Skills
+
+**Security Tools**  
+Wazuh | SIEM | MITRE ATT&CK | Linux Security | Windows Security
+
+**Programming & Data**  
+Python | Pandas | NumPy | scikit-learn | TensorFlow | Jupyter
+
+**Security Domains**  
+SOC Operations | Incident Response | Threat Detection | Malware Analysis | Network Security
+
+---
+
+## 📈 Impact Summary
+
+* 2 full-scale security lab environments built
+* 5 controlled attack simulations executed and analyzed
+* 5 professional incident response reports created
+* MITRE ATT&CK coverage implemented across all scenarios
+* ML-based intrusion detection pipeline implemented and evaluated
+
+---
+
+## 🎯 Career Focus
+
+Actively targeting:
+
+* SOC Analyst (Tier 1 / Tier 2)
+* Detection Engineer
+* Security Operations Analyst
+* Cybersecurity Analyst
+* Security Data Analyst
+
+---
+
+## 📂 Featured Repositories
+
+* 🛡️ [SOC Home Lab – Wazuh SIEM](https://github.com/MrBipinShrestha/soc-home-lab-wazuh)
+* 📊 [Network Anomaly Detection – UNSW-NB15](https://github.com/MrBipinShrestha/network-anomaly-detection-unsw-nb15)
+* 🦠 [Malware Detection Lab](https://github.com/MrBipinShrestha)
+* 🎣 [Phishing Attack Lab Kit](https://github.com/MrBipinShrestha)
+* 🧠 [Social Engineering Awareness Lab](https://github.com/MrBipinShrestha)
+
+---
+
+## 📬 Connect
+
+* **GitHub:** [github.com/MrBipinShrestha](https://github.com/MrBipinShrestha)
+* **LinkedIn:** [linkedin.com/in/bipinshrestha](https://www.linkedin.com/in/bipinshrestha)
+* **Location:** Sydney, Australia
+
+---
+
+## ⚡ Summary
+
+Security-focused engineer building **hands-on SOC and detection engineering experience through real-world lab simulations and machine learning security analytics.**
